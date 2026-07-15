@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaCode, FaArrowDown, FaFileDownload } from 'react-icons/fa';
-
+import { FaGithub, FaLinkedin, FaCode, FaArrowDown } from 'react-icons/fa';
 const titles = [
   'Aspiring Software Development Engineer',
   'Java Developer',
@@ -154,7 +153,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-4 mb-12"
+          className="flex justify-center mb-12"
         >
           {/* View Projects Button */}
           <button
@@ -165,15 +164,16 @@ const Hero = () => {
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
 
-          {/* Download Resume Button - Temporarily Disabled */}
-          {/* <a
-            href="/resume.pdf"
-            download="Manish_Dhanaraj_Resume.pdf"
-            className="px-8 py-3.5 rounded-xl font-semibold font-poppins bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-850/80 shadow-md transform hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2 text-slate-200"
-          >
-            <FaFileDownload className="text-cyan-400" />
-            <span>Download Resume</span>
-          </a> */
+          {/*
+<a
+  href="/resume.pdf"
+  download="Manish_Dhanaraj_Resume.pdf"
+  className="..."
+>
+  <FaFileDownload className="text-cyan-400" />
+  <span>Download Resume</span>
+</a>
+*/}
         </motion.div>
 
         {/* Social Links */}
