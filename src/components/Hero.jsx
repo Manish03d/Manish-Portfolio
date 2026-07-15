@@ -146,7 +146,7 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.45 }}
           className="text-slate-400 max-w-xl text-sm md:text-base mb-10 leading-relaxed font-sans"
         >
-          Electronics and Communication Engineering student at Bannari Amman Institute of Technology. Master of Java and Data Structures & Algorithms, building robust backend ecosystems.
+          Electronics and Communication Engineering student at Bannari Amman Institute of Technology. Passionate about Java and Data Structures & Algorithms, building robust backend ecosystems.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -165,15 +165,15 @@ const Hero = () => {
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
 
-          {/* Download Resume Button */}
-          <a
+          {/* Download Resume Button - Temporarily Disabled */}
+          {/* <a
             href="/resume.pdf"
             download="Manish_Dhanaraj_Resume.pdf"
             className="px-8 py-3.5 rounded-xl font-semibold font-poppins bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-850/80 shadow-md transform hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2 text-slate-200"
           >
             <FaFileDownload className="text-cyan-400" />
             <span>Download Resume</span>
-          </a>
+          </a> */
         </motion.div>
 
         {/* Social Links */}
